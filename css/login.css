@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(rgb(255, 119, 0),rgb(255, 255, 255), rgb(20, 146, 4));
+}
+.info{
+    float: left;
+    width: 78%;
+    margin: 7px;
+}
+.info ul,.info h2{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.info ul li{
+    margin: 15px;
+}
+.info h1{
+    text-align: center;
+}
+.bg-img{
+    float: left;
+    width: 21%;
+}
+.bg-img .container{
+    z-index: 100;
+}
+input {
+    font-size: 17px;
+}
+footer {
+    position: absolute;
+    bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    z-index: 100;
+}

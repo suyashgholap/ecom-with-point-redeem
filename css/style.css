@@ -1,0 +1,90 @@
+@font-face{
+    font-family: Lexend;
+    src: url(../fonts/Lexend_Deca/LexendDeca-Regular.ttf);
+}
+*{
+    font-family: Lexend;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("images/img.jpeg");
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: black;
+    border-radius: 10px;
+    outline-width: 2px;
+    color: white;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+select {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding: 10px;
+    font-size: 15px;
+    color: #555;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    border: 1px solid rgb(41, 18, 18);
+}
+
+select>option {
+    font-size: 18px;
+    color: #000000;
+    background-color: rgb(247, 247, 247);
+    background-image: none;
+    font-size: 15px;
+    height: 50px;
+    padding: 100px;
+    border: 1px solid rgb(41, 18, 18);
+}

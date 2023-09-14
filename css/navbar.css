@@ -1,0 +1,60 @@
+@font-face{
+  font-family: Lexend;
+  src: url(../fonts/Lexend_Deca/LexendDeca-Regular.ttf);
+}
+*{
+  font-size: medium;
+  font-family: Lexend;
+}
+*{
+  margin: 0;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #0008ff;
+}
+.column {
+  float: left;
+  width: 75%;
+}
+.column1 {
+  float: right;
+  text-align: justify;
+  width: 25%;
+}
+.column1 a{
+  float: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
